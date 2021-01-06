@@ -1,0 +1,40 @@
+.img-wrap--adv{
+    background: #f5a211 !important;
+    border: 1px solid #ededed !important;
+}
+
+.side-wrap{
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.side-wrap .text-wrap{
+    flex-grow:0 !important;
+    margin: 10px;
+}
+
+.side-wrap h1{
+    text-align: center;
+}
+
+.side-wrap .img-wrap{
+
+    height: 50%;
+    width: calc(100% - 10px);
+}
+
+.article--adv p{
+    display: flex;
+    align-items: flex-start;
+}
+
+.article--adv p::after {
+    content: "〱";
+transform: rotate(180deg);
+   font-size: 400%;
+   
+    color: #f5a211;
+    
+    
+  }
